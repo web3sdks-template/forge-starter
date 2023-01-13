@@ -1,0 +1,16 @@
+{
+  "name": "forge-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/web3sdks-template/forge-starter.git",
+  "author": "web3sdks <eng@web3sdks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@web3sdks/contracts": "^1.0.0"
+  },
+  "scripts": {
+    "build": "npx web3sdks@latest detect",
+    "deploy": "npx web3sdks@latest deploy",
+    "release": "npx web3sdks@latest release"
+  }
+}

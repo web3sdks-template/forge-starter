@@ -1,0 +1,10 @@
+[default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+remappings = [
+    '@web3sdks/=node_modules/@web3sdks/',
+]
+
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
